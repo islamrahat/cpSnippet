@@ -3,7 +3,8 @@ using namespace std;
 typedef long long         ll;
 typedef vector<int>       vi;
 typedef vector<long long> vl;
-#define pb push_back
+#define pb                push_back
+#define sz(x)             (int)x.size()
 #define ff                first
 #define ss                second
 #define endl              "\n"
