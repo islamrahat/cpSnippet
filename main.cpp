@@ -1,10 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
+int dx[] = {-1,1,0,0};
+int dy[] = {0,0,-1,1};
+int MOD = 1e9+7;
 typedef long long         ll;
+typedef pair<int,int>     pii;
 typedef vector<int>       vi;
 typedef vector<long long> vl;
+typedef vector<pair<int,int>> vpi;
+typedef vector<vector<int>>   vvi;
+typedef vector<vector<char>>  vvc;
 #define pb                push_back
-#define sz(x)             (int)x.size()
+#define sz(x)             ((int)x.size())
 #define ff                first
 #define ss                second
 #define endl              "\n"
